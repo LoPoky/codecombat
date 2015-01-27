@@ -98,7 +98,7 @@ module.exports = nativeDescription: "Українська", englishDescription: 
     campaign_classic_algorithms_description: "... у яких Ви вивчите найпопулярніші алгоритми комп'ютерних наук."
 
   login:
-    sign_up: "створення акаунту"
+    sign_up: "зареєструватися"
     log_in: "Увійти"
     logging_in: "Вхід в акаунт"
     log_out: "Вийти"
@@ -126,8 +126,8 @@ module.exports = nativeDescription: "Українська", englishDescription: 
     recovery_sent: "Лист для відновлення надіслано."
 
   items:
-    primary: "Основна"
-    secondary: "Додаткова"
+    primary: "Основні"
+    secondary: "Додаткові"
     armor: "Броня"
     accessories: "Прикраси"
     misc: "Різне"
@@ -316,13 +316,13 @@ module.exports = nativeDescription: "Українська", englishDescription: 
     tip_premature_optimization: "Передчасна оптимізація – корінь усього зла. - Дональд Кнут"
     tip_brute_force: "Якщо Ви сумніваєтеся, використовуйте перебір - Кен Томсон"
     tip_extrapolation: "Існує 2 типи людей: які можуть екстраполюватись від неповних даних..."
-#    tip_superpower: "Coding is the closest thing we have to a superpower."
-#    tip_control_destiny: "In real open source, you have the right to control your own destiny. - Linus Torvalds"
-#    tip_no_code: "No code is faster than no code."
-#    tip_code_never_lies: "Code never lies, comments sometimes do. — Ron Jeffries"
+    tip_superpower: "Кодинг є нашою силою найближчою до суперсили."
+    tip_control_destiny: "В справжньому відкритому вихідному коді ти маєш право контролювати свою долю. - Лінус Торвальдс"
+    tip_no_code: "Нема коду швидшого ніж ніякого."
+    tip_code_never_lies: "Код ніколи не бреше, коментарі іноді можуть. — Рон Джеффріс"
 #    tip_reusable_software: "Before software can be reusable it first has to be usable."
-#    tip_optimization_operator: "Every language has an optimization operator. In most languages that operator is ‘//’"
-#    tip_lines_of_code: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight. — Bill Gates"
+    tip_optimization_operator: "Кожна мова має оператор для оптимізації. В більшості мов цей оператор - ‘//’"
+    tip_lines_of_code: "Вимірювання програмного прогресу рядками коду всерівно що вимірювати авіабудівництво по вазі. — Білл Гейтс"
 
   game_menu:
     inventory_tab: "Інвентар"
@@ -592,10 +592,10 @@ module.exports = nativeDescription: "Українська", englishDescription: 
     archmage_summary: "Якщо ви зацікавлені в програмуванні навчальних ігор, станьте архімагом аби допомогти нам створювати CodeCombat!"
     artisan_title: "Ремісник"
     artisan_title_description: "(Створювач рівнів)"
-#    artisan_summary: "Build and share levels for you and your friends to play. Become an Artisan to learn the art of teaching others to program."
+    artisan_summary: "Створюй рівні та ділися ними з своїми друзями щоб грати. Стань Майстром в навчанні інших програмуванню."# artisan_summary: "Build and share levels for you and your friends to play. Become an Artisan to learn the art of teaching others to program."
     adventurer_title: "Шукач пригод"
     adventurer_title_description: "(Тестувальник рівнів)"
-#    adventurer_summary: "Get our new levels (even our subscriber content) for free one week early and help us work out bugs before our public release."
+    adventurer_summary: "Отримуй наші нові рівні (іноді контент наших передплатників) безкоштовно на тиждень раніше і допоможи нам опрацювати помилки до публічного релізу."#    adventurer_summary: "Get our new levels (even our subscriber content) for free one week early and help us work out bugs before our public release."
     scribe_title: "Писар"
     scribe_title_description: "(Редактор статей)"
     scribe_summary: "Хороший код потребує хорошої документації. Пишіть, редагуйте, та покращуйте документацію, яку побачать мільйони гравців зі всього світу."
@@ -604,7 +604,7 @@ module.exports = nativeDescription: "Українська", englishDescription: 
     diplomat_summary: "За допомогою наших дипломатів CodeCombat локалізовано більш ніж 45 мовами. Ви також можете допомогти з перекладом."
     ambassador_title: "Посланець"
     ambassador_title_description: "(Підтримка)"
-#    ambassador_summary: "Tame our forum users and provide direction for those with questions. Our ambassadors represent CodeCombat to the world."
+    ambassador_summary: "Вгамовуй наших користувачів форумом та спрямовуй їх запитаннями. Наші посередники представляють CodeCombat світові."#    ambassador_summary: "Tame our forum users and provide direction for those with questions. Our ambassadors represent CodeCombat to the world."
 
   editor:
     main_title: "Редактори CodeCombat"
@@ -690,7 +690,7 @@ module.exports = nativeDescription: "Українська", englishDescription: 
 
   contribute:
     page_title: "Співпраця"
-#    intro_blurb: "CodeCombat is 100% open source! Hundreds of dedicated players have helped us build the game into what it is today. Join us and write the next chapter in CodeCombat's quest to teach the world to code!"
+    intro_blurb: "CodeCombat має повністю відкритий вихідний код! Сотні відданих гравців допомагають нам привести гру до того стану, в якому вона є зараз. Приєднуйся до нас і напиши наступний розділ в квесті CodeCombat, щоб навчити весь світ програмувати!"#intro_blurb: "CodeCombat is 100% open source! Hundreds of dedicated players have helped us build the game into what it is today. Join us and write the next chapter in CodeCombat's quest to teach the world to code!"
     alert_account_message_intro: "Привіт!"
     alert_account_message: "Щоб підписатися на email'и класу, Ви спершу маєте увійти."
     archmage_introduction: "Однією з найкращих частин створення ігор є те, що вони синтезують так багато різноманітних речей. Графіка, звук, з'єднання з мережею у реальному часі, соціальні мережі, і, звичайно, багато з найбільш поширених аспектів програмування, від управління низькорівневими базами даних і адміністративної підтримки сервера до користувацького зовнішнього вигляду та побудови інтерфейсу. Тут є ще багато до виконання, і якщо Ви досвідчений програміст із пристрасним бажанням зануритися у нетрі CodeCombat, цей розділ скоріше за все для Вас. Ми з радістю приймемо Вашу допомогу у побудові найкращої з усіх гри для програмування."
